@@ -1,17 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int firstNumber, secondNumber, sumOfTwoNumbers;
-    
-    printf("Enter two integers: ");
-
-    scanf("%d %d", &firstNumber, &secondNumber);
+    int firstNumber=10, secondNumber=50, sumOfTwoNumbers;
 
     
     sumOfTwoNumbers = firstNumber + secondNumber;
 
         
-    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+    printf("%d",sumOfTwoNumbers);
 
     return 0;
 }
