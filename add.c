@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+int d;
 int main()
 {
 int a,b,c;
